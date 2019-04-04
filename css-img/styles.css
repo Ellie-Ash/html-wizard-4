@@ -1,0 +1,67 @@
+body {
+    background-color: goldenrod;
+}
+
+nav {
+    display: flex;
+    background-color: darkgoldenrod;
+    width: 100%;
+    justify-content: center;
+    padding: .2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    margin: 2em 1em 2em 1em;
+    color: rgb(255, 238, 87)
+}
+
+nav a:hover {
+    color: white;
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    background-color: darkgoldenrod;
+    justify-content: center;
+}
+
+main {
+    flex: 2;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: yellow;
+}
+
+h1, h2, h3 {
+    color: yellow;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(90, 23, 23);
+}
+
+.wrapper {
+    background-color: orchid;
+}
